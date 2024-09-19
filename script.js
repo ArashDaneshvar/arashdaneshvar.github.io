@@ -4,3 +4,9 @@ function toggleMenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
+
+function playVideo() {
+  const videoPlayer = document.getElementById("videoPlayer");
+  videoPlayer.style.display = "block"; // Show the video
+  videoPlayer.play(); // Play the video
+}
