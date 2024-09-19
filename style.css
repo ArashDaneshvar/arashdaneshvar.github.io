@@ -385,7 +385,7 @@ article .icon {
 }
 
 .scroll-container {
-    overflow: scroll;
+    overflow: auto;
 }
 
 .scroll-container::-webkit-scrollbar {
