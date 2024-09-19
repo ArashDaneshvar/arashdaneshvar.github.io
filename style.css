@@ -384,6 +384,19 @@ article .icon {
     border-color: rgb(163, 163, 163);
 }
 
+.scroll-container {
+    overflow: scroll;
+}
+
+.scroll-container::-webkit-scrollbar {
+    height: 8px; 
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background-color: #aaa; 
+    border-radius: 4px; 
+}
+
 /* CONTACT */
 
 #contact {
