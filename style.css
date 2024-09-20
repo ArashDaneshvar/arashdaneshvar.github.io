@@ -178,6 +178,7 @@ section {
 
 .circle-image {
     border-radius: 50%;
+    filter: grayscale(90%);
 }
 
 .section__text {
@@ -395,6 +396,19 @@ article .icon {
 .scroll-container::-webkit-scrollbar-thumb {
     background-color: #aaa; 
     border-radius: 4px; 
+}
+
+/* HOBBY SECTION */
+
+#hobby {
+    position: relative;
+}
+
+.hobby-img {
+    border-radius: 1rem;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
 
 /* CONTACT */
