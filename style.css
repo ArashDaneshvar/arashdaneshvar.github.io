@@ -177,8 +177,8 @@ section {
 }
 
 .circle-image {
-    border-radius: 50%;
-    filter: grayscale(90%);
+    border-radius: 80%;
+    filter: grayscale(50%);
 }
 
 .section__text {
